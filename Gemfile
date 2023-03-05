@@ -9,6 +9,7 @@ gem 'puma', '~> 5.0'
 gem 'rails', '~> 7.0.4', '>= 7.0.4.2'
 gem 'rubocop', '~> 1.47'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'dotenv-rails', '~> 2.8', '>= 2.8.1'
 
 group :development, :test do
   gem 'debug', platforms: %i[mri mingw x64_mingw]

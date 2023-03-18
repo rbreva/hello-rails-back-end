@@ -1,21 +1,21 @@
-Message.destroy_all
+Greeting.destroy_all
 
-Message.create!([
+Greeting.create!([
   {
-    msg: "¡Hola Mundo!"
+    message: "¡Hola Mundo!"
   },
   {
-    msg: "Hello World!"
+    message: "Hello World!"
   },
   {
-    msg: "Hallo Welt!"
+    message: "Hallo Welt!"
   },
   {
-    msg: "Pozdrav svijete!"
+    message: "Pozdrav svijete!"
   },
   {
-    msg: "Olá mundo!"
+    message: "Olá mundo!"
   }
 ])
 
-p "Created #{Message.count} msgs"
+p "Created #{Greeting.count} msgs"
